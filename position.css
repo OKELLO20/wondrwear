@@ -1,0 +1,18 @@
+
+#i2{
+    position: relative;
+    top: 40px;
+    right: 20px;
+}
+
+#i1{
+    position: relative;
+    top: 10px;
+    left: 0px;
+}
+
+img{
+    height: 60svh;
+    width: 100svw;
+    z-index: -1;
+}

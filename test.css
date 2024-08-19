@@ -1,0 +1,13 @@
+
+div{
+    border: 2px solid black;
+    height: 70svh;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 20px;
+}
+
+img{
+    height: 200px;
+}

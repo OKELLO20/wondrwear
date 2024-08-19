@@ -1,0 +1,244 @@
+
+.pic1{
+    
+    margin-top: 8px;
+    height: 64svh;
+
+    position: relative;
+}
+
+.pic1 img{
+    width: 100svw;
+    max-width: 600px;
+    height: 100%;
+
+    object-position:center ;
+}
+
+.grid1{
+   
+    margin-top: 4px;
+    height: 70svh;
+    width: 100svw;
+    max-width: 600px;
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 10px;
+
+}
+
+.grid1 img{
+    height: 200px;
+    width: min-content;
+}
+
+.gridf1{
+    position: relative;
+    
+}
+
+.gridf1 button{
+    position: absolute;
+    border-radius:6px;
+}
+
+.gridf1 #b1{
+    left: 5rem;
+    bottom: 8%;
+    opacity: 70%;
+}
+
+.gridf1 #b2{
+    left: 5rem;
+    bottom: 58%;
+    opacity: 70%;
+}
+
+.gridf1 #b3{
+    left: 17rem;
+    bottom: 8%;
+    opacity: 70%;
+}
+
+.gridf1 #b4{
+    left: 17rem;
+    bottom: 58%;
+    opacity: 70%;
+}
+
+
+
+.carosel{
+   
+    margin-top: 4px;
+    height: 28svh; 
+    position: relative;
+
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.carosel::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 60px;
+    height: 100%;
+    background: linear-gradient(to right, #f2f2f2, rgba(255,255,255, 0));
+
+    z-index: 2;
+}
+
+.carosel::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background: linear-gradient(to left, #f2f2f2, rgba(255,255,255, 0));
+
+    z-index: 2;
+}
+
+.ad1{
+    border: 2px solid rgb(16, 243, 129);
+    margin-top: 30px;
+    height: 10svh;
+    text-align: center;
+}
+
+.pic2{
+    
+    margin-top: 8px;
+    height: 70svh;
+
+    position: relative;
+}
+
+.pic2 img{
+    width: 100svw;
+    max-width: 600px;
+    height: 100%;
+
+    object-position:center ;
+}
+
+.grid2{
+   
+    margin-top: 4px;
+    height: 80svh;
+    max-width: 600px;
+    
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-left: 30px;
+   
+}
+
+.grid2 img{
+    height: 240px;
+    width: 160px;
+}
+
+.gridf2{
+    position: relative;
+   
+}
+
+.gridf2 button{
+    position: absolute;
+    border-radius:6px;
+    
+}
+
+.gridf2 #b1{
+    left: 5rem;
+    bottom: 8%;
+    opacity: 70%;
+}
+
+.gridf2 #b2{
+    left: 5rem;
+    bottom: 58%;
+    opacity: 70%;
+}
+
+.gridf2 #b3{
+    left: 15rem;
+    bottom: 8%;
+    opacity: 70%;
+}
+
+.gridf2 #b4{
+    left: 15rem;
+    bottom: 58%;
+    opacity: 70%;
+}
+
+.ad2{
+    border: 2px solid rgb(16, 243, 129);
+    margin-top: 30px;
+    height: 10svh; 
+}
+
+
+
+.textbox{
+    
+    margin-top: 10px;
+    height: 25svh;
+
+    
+}
+
+
+
+
+
+h1{
+    text-align: center;
+    color: #B4C897;
+}
+
+h2{
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.footer{
+
+    width: 90svw;
+    background-color: #B4C897;
+    position: relative;
+    bottom: -10px;
+    left: 2rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+}
+
+
+.footer::after{
+    content: '';
+    position: absolute;
+    width: 100.5%;
+    height: 102.5%;
+    background-image:linear-gradient(to right, red, blue ) ;
+
+    z-index: -1;
+    border-radius: 4px;
+
+
+}
+
+
